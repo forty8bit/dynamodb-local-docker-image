@@ -1,9 +1,3 @@
-DynamoDB Local Docker Image
-===========================
-
-[DynamoDB Local][1] Docker image for development. 
-
-
 Requirements
 ------------
 
