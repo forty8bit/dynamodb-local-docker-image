@@ -13,7 +13,7 @@ CMD ["-help"]
 
 # Should match MD5 checksum of latest DynamoDB Local release (.tar.gz variant).
 # Changing this triggers layer cache invalidation.
-ENV CHECKSUM none
+ENV CHECKSUM c8f797919053a34ac34b5204a09f551e
 
 RUN curl -#L \
     dynamodb-local.s3-website-us-west-2.amazonaws.com/dynamodb_local_latest \
